@@ -1,7 +1,6 @@
 def maxAndMin(list):
     max= min = list[0]
     
-
     for i in list:
         if(max<i):
             max = i
