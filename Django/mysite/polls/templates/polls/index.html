@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Polls</title>
+    </head>
+
+    <body>
+        {%for choice in choice_list %}
+            <ul>
+                <li>{{choice.choice_text}}</li>
+            </ul>
+        {% endfor %}
+    </body>
+</html>
